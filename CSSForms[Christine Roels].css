@@ -1,0 +1,147 @@
+
+header{
+    color: lightseagreen;
+    font-size: larger;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-color: lightsalmon;
+    font-family: Impact, Charcoal, sans-serif;
+}
+footer{
+    font-size: 12px;
+    font-weight: lighter;
+    float: right;
+}
+aside{
+  position: absolute;
+  padding-left: 10px;
+  bottom: 2100px;
+  left: 750px;
+}
+article{
+    background-color:lightpink;
+    font-size: 14px;
+    height:50%;
+    width: 60%;
+    border: none;
+}
+h1{
+    box-sizing: border-box;
+}
+#form{
+    background-color: lightpink;
+    box-sizing: border-box;
+}
+#optional{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+}
+input{
+    outline:none;
+    width:100%;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input:focus{
+    background-color:lightgrey;
+}
+#firstname{
+    background-color:lightskyblue;
+    color: black;
+  }
+#lastname{
+    background-color:lavender;
+    color: black;
+}
+input[type=number]{
+    background-color:lightyellow;
+    color: black;
+}
+/* Remove arrow-spinner on Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* on Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input[type=email]{
+    background-color:lightgreen;
+    color: black;
+}
+input[type=tel]{
+    background-color:lightslategrey;
+    color: black;
+}
+input[type=submit]{
+    background-color: grey;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    background-color: #eb7373;
+  }
+
+.container{
+    position: relative;
+    border-radius: 0px;
+    border: none;
+    background-color: lightseagreen;
+    cursor: pointer;
+    height: 25px;
+    padding-top: 12px;
+    padding-left: 35px;
+    margin-bottom: 8px;
+    font: 1em sans-serif;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    background-color: lightseagreen;
+  }
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color:lightslategrey;
+  }
+/* When the radio button is checked, add a black border */
+  .container input:checked ~ .checkmark {
+    background-color: wheat;
+  }
+/* Create the indicator */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+/* Show the indicator when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  

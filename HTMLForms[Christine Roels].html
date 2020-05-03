@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ski Club Ski on Wheels</title>
+        <link rel="stylesheet" href="CSSForms.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Ski, Club, Inschrijvingen, Skilessen">
+    </head>
+    <body>
+    <header>SkiClub "Ski on Wheels... No snow? No problem!"</header>
+    <article>
+        <h1>inschrijvingsformulier 2030-2031</h1>
+        <section id="form">
+            <h2>Contactpersoon</h2>
+            <form>
+                <label for="firstname">Voornaam:</label><br>
+                <input type="text" name="Voornaam" id="firstname" size=50 required/><br/>
+                <label for="lastname">Naam:</label><br>
+                <input type="text" name="Naam" id="lastname" size=50 required/><br/>
+                <label for="email">Email:</label><br>
+                <input type="email" name="Email" id="email" required/><br/>
+                <label for="gsm">GSM nummer:</label><br>
+                <input type="tel" name="GSM nummer" id="gsm" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{2}" title="0000-00-00-00" required/><br/>
+                <label for="postcode">Postcode (in Belgium):</label><br>
+                <input type="number" name="Postcode" id="postcode" size="4" min="1000" max="10000" required/><br/>
+                <p>Ik zal ook minderjarig(en) inschrijven:</p>
+                <label class="container">Ya
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Nee
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+
+            <h2>Deelnemer(s)</h2>
+            
+            <h3>Eerste persoon</h3>
+                <label for="firstname">Voornaam:</label><br>
+                <input type="text" name="Voornaam" id="firstname" size=50 required/><br/>
+                <label for="birthdate">Geboortedatum:</label><br>
+                <input type="date" name="Geboortedatum" id="birthdate" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" title="01/01/1940" required><br/>
+                <label for="skilevel">Met het volgende skiniveau (één keuze):</label><br>
+                <select name="Met het volgende skiniveau" id="skiLevel" required><br/>
+                    <option value="beginner 1">Volledig beginner(nooit geskïed)</option>
+                    <option value="beginner 2">Beginnende skïer met weining ervaring</option>
+                    <option value="middelmatige">Middelmatige skïer</option>
+                    <option value="gevorderde">Gevorderde skïer</option>
+                    <option value="gevorderde +">Gevorderde skïer +</option>
+                </select><br/>
+                <p>Ik zal ook skilessen nemen:</p>
+                <label class="container">Ya
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Nee
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+           
+            <h3>Tweede persoon*</h3>
+                <label for="firstname">Voornaam:</label><br>
+                <input type="text" name="Voornaam" id="firstname"size=50/><br/>
+                <label for="birthdate">Geboortedatum:</label><br>
+                <input type="date" name="Geboortedatum" id="birthdate" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" title="01/01/1940"><br/>
+                <label for="skilevel">Met het volgende skiniveau (één keuze):</label><br>
+                <select name="Met het volgende skiniveau" id="skiLevel"><br/>
+                    <option value="beginner 1">Volledig beginner(nooit geskïed)</option>
+                    <option value="beginner 2">Beginnende skïer met weining ervaring</option>
+                    <option value="middelmatige">Middelmatige skïer</option>
+                    <option value="gevorderde">Gevorderde skïer</option>
+                    <option value="gevorderde +">Gevorderde skïer +</option>
+                </select><br/>
+                <p>Ik zal ook skilessen nemen:</p>
+                <label class="container">Ya
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Nee
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+            
+            <h3>Derde persoon*</h3>
+                <label for="firstname">Voornaam:</label><br>
+                <input type="text" name="Voornaam" id="firstname"size=50/><br/>
+                <label for="birthdate">Geboortedatum:</label><br>
+                <input type="date" name="Geboortedatum" id="birthdate" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" title="01/01/1940"><br/>
+                <label for="skilevel">Met het volgende skiniveau (één keuze):</label><br>
+                <select name="Met het volgende skiniveau" id="skiLevel"><br/>
+                    <option value="beginner 1">Volledig beginner(nooit geskïed)</option>
+                    <option value="beginner 2">Beginnende skïer met weining ervaring</option>
+                    <option value="middelmatige">Middelmatige skïer</option>
+                    <option value="gevorderde">Gevorderde skïer</option>
+                    <option value="gevorderde +">Gevorderde skïer +</option>
+                </select><br/>
+                <p>Ik zal ook skilessen nemen:</p>
+                <label class="container">Ya
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Nee
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+            
+            <h3>Vierde persoon*</h3>
+                <label for="firstname">Voornaam:</label><br>
+                <input type="text" name="Voornaam" id="firstname"size=50/><br/>
+                <label for="birthdate">Geboortedatum:</label><br>
+                <input type="date" name="Geboortedatum" id="birthdate" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" title="01/01/1940"><br/>
+                <label for="skilevel">Met het volgende skiniveau (één keuze):</label><br>
+                <select name="Met het volgende skiniveau" id="skiLevel"><br/>
+                    <option value="beginner 1">Volledig beginner(nooit geskïed)</option>
+                    <option value="beginner 2">Beginnende skïer met weining ervaring</option>
+                    <option value="middelmatige">Middelmatige skïer</option>
+                    <option value="gevorderde">Gevorderde skïer</option>
+                    <option value="gevorderde +">Gevorderde skïer +</option>
+                </select><br/>
+                <p>Ik zal ook skilessen nemen:</p>
+                <label class="container">Ya
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Nee
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                <label for="verzenden">Verzenden:</label><br>
+                <input type="submit" id="verzenden" value="Ik schrijf de deelnemer(s) in" required><br/>
+            </form>
+        </section>
+        <section id="optional">*Optioneel</section> 
+    </article>
+    <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Delectus earum quod voluptas eaque reiciendis aliquid vitae ipsa dolore consectetur ad? 
+      Veniam quisquam eaque nisi maxime iure distinctio itaque, iusto ipsum!
+      <br/>
+      ...
+      Om texten hier te leggen... Voor de velden, heb ik een exemplaar van één indoor ski 'club' formulier genomen 
+      en ik heb eraan een nieuwe stijl gegeven (met ook fictieve naam voor het skiclub en datums). Mijn inspiratie
+      was de kleurige kledijen in die soort sporten </aside>
+    <footer>Made by jolacascadeuse 2025-2030</footer>
+    </body> 
+</html>
